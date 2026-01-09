@@ -1,0 +1,7 @@
+{
+  "name": "AgriGenius: Multilingual Agriculture Assistant",
+  "description": "An advanced multilingual AI chatbot for farmers and agricultural professionals, providing expert advice on crop management, pest control, and soil health using Gemini-powered NLP.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

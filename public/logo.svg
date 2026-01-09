@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ADE80;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16A34A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="techGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60A5FA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563EB;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main Leaf Shape -->
+  <path d="M256 500c-70 0-140-30-180-90-40-60-40-140 0-200 60-90 180-180 180-180s120 90 180 180c40 60 40 140 0 200-40 60-110 90-180 90z" fill="url(#leafGrad)" />
+  
+  <!-- Central Vein / Circuit Path -->
+  <path d="M256 60v400" stroke="white" stroke-width="12" stroke-linecap="round" opacity="0.6" />
+  <path d="M256 160c-40 20-80 0-80 0m80 80c-50 30-100 0-100 0m100 80c-30 20-60 0-60 0" stroke="white" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.6" />
+  <path d="M256 160c40 20 80 0 80 0m-80 80c50 30 100 0 100 0m-100 80c30 20 60 0 60 0" stroke="white" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.6" />
+
+  <!-- Tech Nodes (AI Brain Connections) -->
+  <circle cx="256" cy="160" r="16" fill="white" />
+  <circle cx="176" cy="210" r="12" fill="white" />
+  <circle cx="336" cy="210" r="12" fill="white" />
+  <circle cx="156" cy="290" r="10" fill="white" />
+  <circle cx="356" cy="290" r="10" fill="white" />
+  
+  <!-- Bottom Stem -->
+  <path d="M256 440v60" stroke="#166534" stroke-width="16" stroke-linecap="round" />
+</svg>
